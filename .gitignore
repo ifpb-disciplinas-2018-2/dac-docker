@@ -12,3 +12,4 @@ release.properties
 build/
 
 *.jar
+.DS_Store

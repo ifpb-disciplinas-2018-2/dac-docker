@@ -1,5 +1,6 @@
-package br.edu.ifpb.domain;
+package br.edu.ifpb.web;
 
+import br.edu.ifpb.domain.Pessoa;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +32,7 @@ public class ListarPessoas extends HttpServlet {
         request.setAttribute("lista", this.lista);
         request.getRequestDispatcher("listar.jsp")
                 .forward(request, response);
+       
     }
 
 }
